@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+    <item
+        android:id="@+id/addChatroom"
+        android:icon="@drawable/baseline_add_to_photos_black_24"
+        android:title="Add Chatroom"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/baseline_exit_to_app_black_24"
+        android:title="Logout"
+        app:showAsAction="ifRoom" />
+
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/onlineUsers"
+        android:title="Online Users"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/myAccount"
+        android:title="My Account"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/allUsers"
+        android:title="All Users"
+        app:showAsAction="never" />
+
+</menu>
