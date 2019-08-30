@@ -33,6 +33,7 @@ Users: Consists of documents with Id's received from Firebase Authentication whi
 Fields consits of :
 
 userCity: User City userEmail: User Email userFirstName: User first Name userLastName: User Last Name userGender: User selected gender userProfileImage: Public downloadable link of image from Firebase Storage
+
 Storage:
 
 Firebase Storage allows file uploads and downloads, regardless of network quality. It allows to store images, audio, video, or other user-generated content. We are using to store User Profile Image.
